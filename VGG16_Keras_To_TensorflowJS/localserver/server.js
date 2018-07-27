@@ -8,6 +8,6 @@ app.use(function(req, res, next){
 
 app.use(express.static("../static"));
 
-app.listen(8080, function(){
-    console.log("Serving at 8080")
+app.listen(8081, function(){
+    console.log("Serving at 8081")
 });
